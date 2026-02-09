@@ -1,0 +1,47 @@
+{
+  "name": "@lxgicstudios/composegen",
+  "version": "1.0.0",
+  "description": "Generate docker-compose.yml files from interactive prompts or predefined stack templates. Supports MEAN, LAMP, Next+Postgres, Rails+Redis and more.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "composegen": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "docker-compose",
+    "docker",
+    "compose",
+    "generator",
+    "yaml",
+    "containers",
+    "devops",
+    "mean-stack",
+    "lamp-stack",
+    "microservices",
+    "infrastructure",
+    "scaffolding",
+    "cli",
+    "templates",
+    "orchestration"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/composegen"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.3.0"
+  }
+}
